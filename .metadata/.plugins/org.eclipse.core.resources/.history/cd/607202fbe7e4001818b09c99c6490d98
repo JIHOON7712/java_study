@@ -1,0 +1,21 @@
+package chap7_1;
+
+public class Triangle {
+	static int bas,hei;
+	
+	public Triangle(int base,int height)
+	{
+		bas=base;
+		hei=height;
+	}
+
+	public static void baschange(int newbase) {
+		bas=newbase;
+	}
+	
+	public static int square()
+	{
+		return bas*hei/2;
+	}
+
+}
